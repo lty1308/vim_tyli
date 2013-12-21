@@ -5,7 +5,6 @@
 """"""""""""
 " Pathogen
 """"""""""""
-call pathogen#infect('~/.vim_tyli/plugins_sourced/{}')
 call pathogen#infect('~/.vim_tyli/plugins/{}')
 call pathogen#helptags()
 
