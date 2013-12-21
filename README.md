@@ -16,5 +16,6 @@ There are two vimrc files included:
 
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Manages the runtime path of the plugins
 * [NERD Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim
+* [Supertab](https://github.com/ervandew/supertab): Use <Tab> for all insert completion needs
 
 Thank you! Enjoy~ 
