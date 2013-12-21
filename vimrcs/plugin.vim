@@ -14,3 +14,8 @@ call pathogen#helptags()
 map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark 
 map <leader>nf :NERDTreeFind<cr>
+
+""""""""""""
+" Supertab
+""""""""""""
+let g:SuperTabDefaultCompletionType = "context"

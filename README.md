@@ -9,7 +9,7 @@ There are two vimrc files included:
 
 ## How to install
 
-    git clone git://github.com/lty1308/vim.git ~/.vim_tyli
+    git clone git://github.com/lty1308/Vim.git ~/.vim_tyli
     sh ~/.vim_tyli/install.sh
 
 ## Plugins
