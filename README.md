@@ -17,6 +17,11 @@ There are two vimrc files included:
     cd ~/.vim_tyli
     git pull --rebase
 
+## Functions
+
+    **Absolute/Relative line number toggle**
+    This function acts as the switch between absolute and relative line number by pressing <C-n>
+
 ## Plugins
 
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Manages the runtime path of the plugins
