@@ -20,8 +20,7 @@ There are two vimrc files included:
 ## Functions
 
 * **Absolute/Relative line number toggle**
-
-This function acts as the switch between absolute and relative line number by pressing <C-n>
+* This function acts as the switch between absolute and relative line number by pressing <C-n>
 
 ## Plugins
 
