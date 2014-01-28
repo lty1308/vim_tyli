@@ -62,3 +62,14 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+" Relative line numebr
+function! ToggleRelativeNumber()
+    if(&relativenumber == 1)
+        set number
+    else
+        set relativenumber
+    endif
+endfunc
+
+nnoremap <C-n> :call ToggleRelativeNumber()<cr>
