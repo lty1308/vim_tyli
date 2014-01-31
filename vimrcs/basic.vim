@@ -39,7 +39,7 @@ set si              " Smart indent
 set wrap            " Wrap lines
 set number          " Set line number
 set laststatus=2    " Always show the status line
-set statusline=\ %F%m%r%h\ %w\ %r%{getcwd()}%h\ \ \ Line:\ %l  " Format the status line
+set statusline=\ %F%m%r%h\ %w\ %r%{getcwd()}%h\ \ \ Line:\ %l,%P  " Format the status line
 
 " Color & Fonts
 syntax enable       " Enable syntax highlighting
@@ -55,13 +55,13 @@ set noswapfile      " No swap file
 " Key maps
 """""""""""
 " Map <Space> to search
-map <space> /       
+nnoremap <space> /       
 
 " Move between window
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
+nnoremap <C-h> <C-W>h
+nnoremap <C-l> <C-W>l
 
 " Relative line numebr
 function! ToggleRelativeNumber()
