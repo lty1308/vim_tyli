@@ -72,4 +72,16 @@ function! ToggleRelativeNumber()
     endif
 endfunc
 
+" Toggle line number
 nnoremap <C-n> :call ToggleRelativeNumber()<cr>
+
+" Map <esc> to jk 
+inoremap jk <esc>
+
+" Page up/down
+noremap <S-j> <C-F>
+noremap <S-k> <C-B>
+
+" Super left/right
+noremap <S-h> ^
+noremap <S-l> $
