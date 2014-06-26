@@ -1,4 +1,3 @@
-""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer:
 "   Tianyu Li
 "
@@ -81,3 +80,10 @@ inoremap jk <esc>
 " Super left/right
 noremap <S-Left> ^
 noremap <S-Right> $
+
+" Page up/down
+noremap <S-j> <C-u>
+noremap <S-k> <C-d>
+
+" Syntax highlight for .less file
+nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>

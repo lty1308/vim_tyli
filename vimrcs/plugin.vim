@@ -6,6 +6,7 @@
 " Pathogen
 """"""""""""
 call pathogen#infect('~/.vim_tyli/plugins/{}')
+call pathogen#infect('~/.vim_tyli/bundle/{}')
 call pathogen#helptags()
 
 """"""""""""
