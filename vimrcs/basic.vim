@@ -22,6 +22,10 @@ filetype indent on  " Enable indent
 """""""""""
 " UI 
 """""""""""
+" Color & Fonts
+syntax enable       " Enable syntax highlighting
+colorscheme molokai " Color scheme molokai
+
 " Main window
 set so=7            " Set 7 lines to the cursor
 set ruler           " Always show current position
@@ -39,10 +43,9 @@ set wrap            " Wrap lines
 set number          " Set line number
 set laststatus=2    " Always show the status line
 set statusline=\ %F%m%r%h\ %w\ %r%{getcwd()}%h\ \ \ Line:\ %l,%P  " Format the status line
-
-" Color & Fonts
-syntax enable       " Enable syntax highlighting
-colorscheme molokai " Color scheme molokai
+set cursorline      " Horizontal cursor line
+set cursorcolumn    " Vertical cursor line
+hi CursorLine cterm=NONE,underline guibg=#F4F4F4
 
 " File
 set encoding=utf8   " Default encoding is UTF8
