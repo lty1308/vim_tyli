@@ -20,3 +20,8 @@ map <leader>nf :NERDTreeFind<cr>
 " Supertab
 """"""""""""
 let g:SuperTabDefaultCompletionType = "context"
+
+""""""""""""
+" Taglist
+""""""""""""
+map <leader>tl :TlistToggle<CR>

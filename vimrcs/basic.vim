@@ -56,14 +56,17 @@ set noswapfile      " No swap file
 """""""""""
 " Key maps
 """""""""""
+" Map <leader> to ,
+let mapleader = ","
+
 " Map <Space> to search
 nnoremap <space> /       
 
 " Move between window
-nnoremap <C-j> <C-W>j
-nnoremap <C-k> <C-W>k
-nnoremap <C-h> <C-W>h
-nnoremap <C-l> <C-W>l
+nnoremap jj <C-W>j
+nnoremap kk <C-W>k
+nnoremap hh <C-W>h
+nnoremap ll <C-W>l
 
 " Relative line numebr
 function! ToggleRelativeNumber()
@@ -75,7 +78,7 @@ function! ToggleRelativeNumber()
 endfunc
 
 " Toggle line number
-nnoremap <C-n> :call ToggleRelativeNumber()<cr>
+nnoremap nn :call ToggleRelativeNumber()<cr>
 
 " Map <esc> to jk 
 inoremap jk <esc>
@@ -89,4 +92,4 @@ noremap <S-j> <C-u>
 noremap <S-k> <C-d>
 
 " Syntax highlight for .less file
-nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
+nnoremap <leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
