@@ -53,6 +53,9 @@ set ffs=unix        " Use Unix as the standard file type
 set nobackup        " No back up
 set noswapfile      " No swap file
 
+" Git
+au FileType gitcommit set tw=720
+
 """""""""""
 " Key maps
 """""""""""
