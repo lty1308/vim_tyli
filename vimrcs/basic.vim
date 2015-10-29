@@ -81,7 +81,7 @@ function! ToggleRelativeNumber()
 endfunc
 
 " Toggle line number
-nnoremap nn :call ToggleRelativeNumber()<cr>
+nnoremap nu :call ToggleRelativeNumber()<cr>
 
 " Map <esc> to jk 
 inoremap jk <esc>
