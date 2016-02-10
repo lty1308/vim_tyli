@@ -66,10 +66,10 @@ let mapleader = ","
 nnoremap <space> /       
 
 " Move between window
-nnoremap jj <C-W>j
-nnoremap kk <C-W>k
-nnoremap hh <C-W>h
-nnoremap ll <C-W>l
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
+nnoremap <C-h> <C-W>h
+nnoremap <C-l> <C-W>l
 
 " Relative line numebr
 function! ToggleRelativeNumber()
@@ -87,8 +87,8 @@ nnoremap nu :call ToggleRelativeNumber()<cr>
 inoremap jk <esc>
 
 " Super left/right
-noremap <S-Left> ^
-noremap <S-Right> $
+noremap <S-h> ^
+noremap <S-l> $
 
 " Page up/down
 noremap <S-j> <C-u>
