@@ -91,8 +91,8 @@ noremap <S-h> ^
 noremap <S-l> $
 
 " Page up/down
-noremap <S-j> <C-u>
-noremap <S-k> <C-d>
+noremap <S-k> <C-u>
+noremap <S-j> <C-d>
 
 " Syntax highlight for .less file
 nnoremap <leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
