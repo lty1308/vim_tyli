@@ -24,7 +24,8 @@ filetype indent on  " Enable indent
 """""""""""
 " Color & Fonts
 syntax enable       " Enable syntax highlighting
-colorscheme molokai " Color scheme molokai
+set background=dark " Background color
+colorscheme solarized " Color scheme
 
 " Main window
 set so=7            " Set 7 lines to the cursor
@@ -96,3 +97,6 @@ noremap <S-j> <C-d>
 
 " Syntax highlight for .less file
 nnoremap <leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
+
+" Toggle between dark and light solarized color scheme
+call togglebg#map("<F5>")
