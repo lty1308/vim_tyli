@@ -15,6 +15,7 @@
 """""""""""
 set history=1000    " How many commands of history VIM has to remember
 set autoread        " Set to auto read when a file is changed from outside
+set shell=bash\ -l  " Use login shell
 
 filetype plugin on  " Enable filetype plugin
 filetype indent on  " Enable indent
