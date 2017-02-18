@@ -25,6 +25,11 @@ let g:SuperTabDefaultCompletionType = "context"
 map <leader>tl :TlistToggle<CR>
 
 """"""""""""
+" CommandT
+""""""""""""
+nmap ff :CommandT<CR>
+
+""""""""""""
 " Syntastic 
 """"""""""""
 let g:syntastic_javascript_checkers = ['standard']

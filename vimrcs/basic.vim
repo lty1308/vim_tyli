@@ -102,5 +102,3 @@ nnoremap <leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
 " Toggle between dark and light solarized color scheme
 call togglebg#map("<F5>")
 
-" CommandT plugin
-nmap ff :CommandT<CR>
