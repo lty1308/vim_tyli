@@ -26,4 +26,4 @@ map <leader>tl :TlistToggle<CR>
 """"""""""""
 " CommandT
 """"""""""""
-nmap ff :CommandT<CR>
+nmap ff :CommandT .<CR>
