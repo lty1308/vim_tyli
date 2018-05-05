@@ -27,3 +27,9 @@ map <leader>tl :TlistToggle<CR>
 " CommandT
 """"""""""""
 nmap ff :CommandT .<CR>
+
+""""""""""""
+" CommandT
+""""""""""""
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_flow = 1

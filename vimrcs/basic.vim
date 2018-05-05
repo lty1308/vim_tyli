@@ -125,3 +125,5 @@ nnoremap <S-p> :cp<CR>
 " Use 2 <CR> to work around hit-enter prompt
 nnoremap gr :grep -ir <cword> *<CR><CR> :cw<CR>
 
+" Associate *.flow with javascript filetype
+autocmd BufNewFile,BufRead *.flow set syntax=javascript
