@@ -26,7 +26,6 @@ filetype indent on  " Enable indent
 " Color & Fonts
 syntax enable       " Enable syntax highlighting
 set background=dark " Background color
-colorscheme solarized " Color scheme
 
 " Main window
 set so=7            " Set 7 lines to the cursor
