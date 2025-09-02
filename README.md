@@ -4,7 +4,7 @@ Used for synchronizing vim configurations across all devices
 
 ## How to install
 
-    git clone git://github.com/lty1308/vim_tyli.git ~/.vim_tyli
+    git clone git@github.com:lty1308/vim_tyli.git ~/.vim_tyli
     sh ~/.vim_tyli/install.sh
 
 ## How to update
